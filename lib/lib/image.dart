@@ -3,7 +3,6 @@ import 'package:flutter/material.dart' as material;
 import 'package:image/image.dart' as img;
 import 'dart:io';
 import 'dart:async';
-import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 
 class Image {
@@ -23,9 +22,11 @@ class Image {
     return resizedImage!;
   }
 
-  static Future<img.Image> _processImage((List<int>, img.Interpolation) params) async {
+  static Future<img.Image> _processImage(
+    (List<int>, img.Interpolation) params,
+  ) async {
     final (bytes, interpolation) = params;
-    
+
     img.Image? image = img.decodeImage(Uint8List.fromList(bytes));
     if (image == null) {
       throw Exception('Image not found or corrupted!');
@@ -33,7 +34,7 @@ class Image {
 
     int width = image.width;
     int height = image.height;
-    
+
     if (width == 0 || height == 0) {
       throw ArgumentError('Width and height cannot be zero');
     }
