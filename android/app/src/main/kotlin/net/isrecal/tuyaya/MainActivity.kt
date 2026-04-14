@@ -1,4 +1,4 @@
-package com.example.moments_photo_resizer
+package net.isrecal.tuyaya
 
 import io.flutter.embedding.android.FlutterActivity
 
