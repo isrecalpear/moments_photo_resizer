@@ -29,7 +29,7 @@ class _ImagePickerPageState extends State<ImagePickerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('选择图片')),
+      appBar: AppBar(title: const Text('图压压')),
       body: Center(
         child: _resizedImage == null
             ? const Text('请点击按钮选择图片')
