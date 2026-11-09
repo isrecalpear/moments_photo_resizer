@@ -1,11 +1,11 @@
 {
-    "name": "moments_photo_resizer",
-    "short_name": "moments_photo_resizer",
+    "name": "图压压",
+    "short_name": "图压压",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "把照片缩放到适合朋友圈的尺寸，并压缩成更小的 JPEG。",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
