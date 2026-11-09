@@ -1,5 +1,5 @@
 name: moments_photo_resizer
-description: "A new Flutter project."
+description: "图压压：把照片缩放到适合朋友圈的尺寸，并压缩成更小的 JPEG。"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -37,7 +37,7 @@ dependencies:
   image: ^4.8.0
   image_picker: ^1.2.1
   file_picker: ^11.0.2
-  permission_handler: ^12.0.1
+  gal: ^2.3.3
 
 dev_dependencies:
   flutter_test:
