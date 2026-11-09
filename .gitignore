@@ -32,6 +32,8 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+# Kotlin / Gradle 本地会话与缓存目录
+.kotlin/
 # 本地打好的分架构 APK 与校验文件，只用于分发，不进入仓库
 /dist/
 
